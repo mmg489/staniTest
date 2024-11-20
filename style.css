@@ -1,0 +1,64 @@
+.container{
+    background-color: black;
+    color:navajowhite;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+
+#shopNow{
+    background-color: navajowhite;
+    border-radius: 3px;
+    font-size: large;
+}
+#shopNow:active{
+    transform: scale(0.98);
+}
+
+.navbar{
+    background-color: navajowhite;
+    text-align: left;
+}
+
+.nav-link{
+    color: #4b5320;
+    text-shadow: 2px 2px 4px grey;
+    padding-left: 4px;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.navbar .nav-link:hover{
+    color: green;
+
+}
+
+.hero-image {
+    background-image: url("https://images.unsplash.com/photo-1516655855035-d5215bcb5604?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust the height as needed */
+  }
+  
+  input[type="text"],input[type="email"], textarea#message {
+    background-color: navajowhite;
+  }
+
+  button#submitBtn{
+    background-color: navajowhite;
+    border-radius: 15px;
+    margin-left: 10rem;
+    max-width: 10rem;
+    margin: 5%;
+  }
+
+  #myForm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 4rem;
+    margin-bottom: 10px;
+  }
